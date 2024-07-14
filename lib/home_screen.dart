@@ -185,12 +185,13 @@ class _HomeScreenState extends State<HomeScreen> {
       if (_turnOfO && _xOrOList[index] == '') {
         _xOrOList[index] = 'o';
         _filledBoxes += 1;
+        _turnOfO = !_turnOfO;
       } else if (!_turnOfO && _xOrOList[index] == '') {
         _xOrOList[index] = 'x';
         _filledBoxes += 1;
+        _turnOfO = !_turnOfO;
       }
 
-      _turnOfO = !_turnOfO;
       _checkTheWinner();
     });
   }

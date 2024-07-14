@@ -270,6 +270,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     if (_filledBoxes == 9) {
       _showAlertDialog('Draw', '');
+      _clearBoard();
     }
   }
 

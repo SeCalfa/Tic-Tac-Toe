@@ -201,6 +201,7 @@ class _HomeScreenState extends State<HomeScreen> {
         _xOrOList[0] == _xOrOList[2] &&
         _xOrOList[0] != '') {
       _showAlertDialog('Winner', _xOrOList[0]);
+      _clearBoard();
       return;
     }
 
@@ -209,6 +210,7 @@ class _HomeScreenState extends State<HomeScreen> {
         _xOrOList[3] == _xOrOList[5] &&
         _xOrOList[3] != '') {
       _showAlertDialog('Winner', _xOrOList[3]);
+      _clearBoard();
       return;
     }
 
@@ -217,6 +219,7 @@ class _HomeScreenState extends State<HomeScreen> {
         _xOrOList[6] == _xOrOList[8] &&
         _xOrOList[6] != '') {
       _showAlertDialog('Winner', _xOrOList[6]);
+      _clearBoard();
       return;
     }
 
@@ -225,6 +228,7 @@ class _HomeScreenState extends State<HomeScreen> {
         _xOrOList[0] == _xOrOList[6] &&
         _xOrOList[0] != '') {
       _showAlertDialog('Winner', _xOrOList[0]);
+      _clearBoard();
       return;
     }
 
@@ -233,6 +237,7 @@ class _HomeScreenState extends State<HomeScreen> {
         _xOrOList[1] == _xOrOList[7] &&
         _xOrOList[1] != '') {
       _showAlertDialog('Winner', _xOrOList[1]);
+      _clearBoard();
       return;
     }
 
@@ -241,6 +246,7 @@ class _HomeScreenState extends State<HomeScreen> {
         _xOrOList[2] == _xOrOList[8] &&
         _xOrOList[2] != '') {
       _showAlertDialog('Winner', _xOrOList[2]);
+      _clearBoard();
       return;
     }
 
@@ -249,6 +255,7 @@ class _HomeScreenState extends State<HomeScreen> {
         _xOrOList[0] == _xOrOList[8] &&
         _xOrOList[0] != '') {
       _showAlertDialog('Winner', _xOrOList[0]);
+      _clearBoard();
       return;
     }
 
@@ -257,6 +264,7 @@ class _HomeScreenState extends State<HomeScreen> {
         _xOrOList[2] == _xOrOList[6] &&
         _xOrOList[2] != '') {
       _showAlertDialog('Winner', _xOrOList[2]);
+      _clearBoard();
       return;
     }
 
